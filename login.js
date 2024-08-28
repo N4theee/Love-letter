@@ -12,7 +12,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     }
 
     // Simulate a successful login
-    if (username === "edlynaguilar" && password === "N4the") {
+    if (username === "23-13634-463" && password === "edlynaguilar") {
         alert("Login successful! Redirecting...");
         window.location.href = "hays.html"; // Redirect to the new page
     } else {
