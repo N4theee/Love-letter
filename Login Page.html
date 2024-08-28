@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unang Login Page Ko</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <div class="intro-text">
+        <center><h2>Hello My Love!</h2> </center>
+        <center><p1>This is for you hehe   </p1></center>
+        <center><p2>Exclusive for you only  </p2></center>
+
+        <br></br>
+
+        <div class="login-container">
+            <input type="checkbox" id="toggle-login" class="toggle-login">
+            <label for="toggle-login" class="login-button">Click here</label>
+
+            <div class="login-form">
+                <h2>Put your info here</h2>
+                <form id="loginForm">
+                    <label for="username">Your Name</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+                    <label for="password">Your Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                    <button type="submit" class="submit">Login</button>
+                    <button type="button" class="cancel" onclick="document.getElementById('toggle-login').checked = false;">Cancel</button>
+
+                    <div class="register-link">
+                        <p><b>Are you Pink?</b> <a href="#">If not the go away</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
